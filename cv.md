@@ -14,3 +14,4 @@
 * **Windows OS;**
 * **Android OS;**
 * **Figma(for web development);**
+* **Editors: VS Code;**
