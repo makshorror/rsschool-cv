@@ -15,3 +15,21 @@
 * **Android OS;**
 * **Figma(for web development);**
 * **Editors: VS Code;**
+# Code examples:
+```
+function hello(string) {
+    return ('hello world!');
+  }  
+```
+# Experience:
+Don't have experience :(
+
+# Education:
+* **Mogilev Olympic Reserve School, Mogilev**
+    + Coacher in Trampoline jumping
+# Languages:
+* **Russian**
+* **Belarusian**
+* **English (basic)**
+## English:
+* Basic knowledge this language
