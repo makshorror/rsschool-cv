@@ -108,15 +108,25 @@ body {
 main h2, main p {
     text-align: center;
 }
+pre {
+    margin-left: -37px;
+}
 .f_page {
     display: flex;
     justify-content: space-around;
+    background: rgba(230,209,180,0.9164040616246498);
+    border-radius: 20px 20px 0 0;
 }
 .s_page {
     display: flex;
     justify-content: space-around;
+    background: rgba(230,209,180,0.9164040616246498);
+    border-radius: 0 0 20px 20px;
 }
 
-/* .skills li {
-
-} */
+.skills, .code, .experience {
+    width: 100%;
+}
+.education, .language, .english {
+    width: 100%;
+}
