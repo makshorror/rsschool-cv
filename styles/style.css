@@ -1,5 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .container {
+    margin: 0;
+    padding: 0px;
     max-width: 1170px;
-    margin: auto;
-    height: 1000px;
+    margin:0 auto; 
   }
+  /* .header {
+
+  } */
+  .nav {
+    padding: 25px 0 0 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 10px 10px #949494;
+    border-radius: 0 0 20px 20px;
+
+  }
+  ul, li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  li a {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.2s;
+  }
+  li a:hover {
+    color: #D5D5D5;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.nav img {
+    position: absolute;
+    margin: 0;
+    width: 100px;
+    margin-top: -8px;
+}
+.nav ul {
+    margin-left: 120px;
+}
