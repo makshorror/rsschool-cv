@@ -27,9 +27,11 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style-type: none;
     text-transform: uppercase;
+    gap: 10px;
+    margin-right: 10px;
   }
   .nav li a {
       text-decoration: none;
