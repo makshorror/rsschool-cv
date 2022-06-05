@@ -130,3 +130,28 @@ pre {
 .education, .language, .english {
     width: 100%;
 }
+.footer {
+
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#949494;
+    border-radius: 20px 20px 0 0;
+}
+.github {
+    width: 30px;
+}
+.logors {
+    width: 80px;
+}
+.github:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+}
+.logors:hover {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+}
+
