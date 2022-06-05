@@ -103,7 +103,18 @@ body {
     border-radius: 20px;
     color: #000;
 }
-
-hr {
-    
+main h2, main p {
+    text-align: center;
 }
+.f_page {
+    display: flex;
+    justify-content: space-around;
+}
+.s_page {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .skills li {
+
+} */
