@@ -4,12 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Maksim Shchekin CV</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="shortcut icon" href="img/rs_school_js.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="div">
-        <h1>Hello World!</h1>
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <img src="img/rs_school_js.svg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#contacts">Home</a></li>
+                <li>|</li>
+                <li><a href="#about">About Me</a></li>
+                <li>|</li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="contacts" id="contacts">
+            <figure class="figure">
+                <img class="avatar" src="img/Photo.jpg"
+                     alt="avatar">
+                <figcaption><h1>Maksim Shchekin</h1></figcaption>
+            </figure>
+            <ul>
+                <li> 
+                    <a href="tel:+375(29)768-62-98"><img src="img/phone.png" alt="Phone ico">Phone</a></li>
+                <li>
+                    <a href="https://www.google.com/maps/dir//%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%A8%D0%BC%D0%B8%D0%B4%D1%82%D0%B0+76,+%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%91%D0%B2+212029/@53.8654637,30.3335868,14.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x46d0522b706c8367:0xc7a57ae3e35a58a2!2m2!1d30.3335851!2d53.8661682" target="_blank"><img src="img/geo.png" alt="Address ico">Address</a></li>
+                <li>
+                    <a href="mailto:makshorror96@gmail.com"><img src="img/email.png" alt="Email ico">E-mail</a></li>
+                <li>
+                    <a href="https://github.com/makshorror" target="_blank"><img src="img/github.png" alt="GitHub ico">GitHub</a></li>
+                <li>
+                    <a href="https://instagram.com/makshorror" target="_blank"><img src="img/inst.png" alt="Instagram ico">Instagram</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/maks-horror/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn ico">LinkedIn</a></li>
+            </ul>
+        </div>
     </div>
+    </header>
+    <main class="container">
+        <hr>
+        <div class="f_page" id="about">
+            <div class="skills">
+                <h2>My Skills:</h2>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                    <li>JavaScript (basic knowledge)</li>
+                    <li>Python (basic knowledge)</li>
+                    <li>Windows OS</li>
+                    <li>Android OS</li>
+                    <li>Figma(for web development)</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+            <div class="code">
+                <h2>Code Example:</h2>
+                <pre>
+                    <code>function hello(string) { <br>
+                        return ('hello world!'); <br>
+                      };</code>
+                    </pre>
+            </div>
+            <div class="experience">
+                <h2>My Experience:</h2>
+                <p>Don't have experience :(</p>
+            </div>
+        </div>
+        <div class="s_page">
+            <div class="education">
+                <h2>Education:</h2>
+                <p>Mogilev Olympic Reserve School, Mogilev
+                </p>
+                <ul><li>Coacher in Trampoline jumping</li></ul>
+            </div>
+            <div class="language">
+                <h2>Languages:</h2>
+                <ul>
+                    <li>Russian</li>
+                    <li>Belarusian</li>
+                    <li>English (basic)</li>
+                </ul>
+            </div>
+            <div class="english">
+                <h2>English:</h2>
+                <p>Basic knowledge this language</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container" id="footer">
+            <div class="foot">
+                <a href="https://github.com/makshorror" target="_blank"><img src="img/github.png" alt="GitHub Account" class="github"></a>
+                <p>2022</p>
+                <a href="https://rs.school/js-stage0/"><img src="img/rs_school_js.svg" alt="Logo" class="logors"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
